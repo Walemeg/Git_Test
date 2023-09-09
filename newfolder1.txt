@@ -1,0 +1,40 @@
+I am a great guy learning linux for devops
+
+Linux Commands
+
+pwd - means present working directory, shows current folder we are in
+ls --> lst files in current directory/folder we are in 
+Touch --> creates file (not folder)
+Cat --> read the content in new file
+Clear or CTL L  --> clear all commands used in linux CLI windows
+tail newfolder.txt --> show last few lines in the newfolder text file while "cat" command reads everything
+Head newfolder.txt --> show first few lines in the newfolder text file
+Which pwd --> All command used is a program stored somewhere; which command tells us where the program is stored
+info or man --> the commands gives us description of a linux command e.g info which , man  (didnt work in Git bash)
+mkdir folder --> to create a new folder called "folder1"
+mkdir folder1/folderinside --> creating a folder called "folderinside" inside "folder1"
+$ mkdir folder1/folderinside/secondfolderinside --> creating another folder into the "folderinside2" using forward slash
+
+Remember we are currently in a folder or directory called "devops" thaty contains a new folder called "folder1", 
+folder1 contains a folder called folderinside1 and folderinside1 contains a folder called "secondfolderinside"
+
+CD command is used for moving from one folder to the other and check what is there.
+$ cd folder1/  --> we want to change directory from where we are "devops" folder to "folder1"located inside "devops"
+$ cd downloads/devops/folder1/folderinside/secondfolderinside  -----> we can change our directory/location from downloads to teh last folder and 
+									also revert back using just "cd" or "cd -" command
+ERICSSON+eademeg@E-5CG22609K8 MINGW64 ~/downloads/devops
+$ cd folder1/
+$ pwd
+/c/Users/eademeg/downloads/devops/folder1
+$ ls
+folderinside/
+$ cd folderinside/
+ERICSSON+eademeg@E-5CG22609K8 MINGW64 ~/downloads/devops/folder1/folderinside
+$ ls
+secondfolderinside/
+$ cd  --> just typeing cd or "cd -"command will take us back to the beginning of directory/folder "eademeg" as shown below
+$ pwd
+/c/Users/eademeg  --> note that download folder is inside "eademeg" folder
+
+/c/Users/eademeg/downloads/devops/folder1/folderinside
+$ cd downloads/devops/folder1/folderinside  ----->
